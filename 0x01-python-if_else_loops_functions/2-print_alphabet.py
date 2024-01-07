@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-char= "abcdefghijklmnopqrstuvwxyz"
-print(str(char), end='')
+
+for l in range(97, 123):
+    print(chr(l), end='')
